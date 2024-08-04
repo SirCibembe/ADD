@@ -1,0 +1,12 @@
+{
+  "name": "go-flash",
+  "scripts": {
+    "start": "npm run start --workspace=app/api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "workspaces": [
+    "app/web",
+    "app/api"
+  ]
+}
